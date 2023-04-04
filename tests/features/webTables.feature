@@ -18,7 +18,7 @@ Feature: Select webTable element into Demoqa
 
 @testWeb
 
-Scenario: Select Elements option in home page
+Scenario: Select Elements option webtables
     #Given the user selects the Elements option
     Given the user clicks the add button
     And the user sets "Maria Isabel" as First Name

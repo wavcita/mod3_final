@@ -18,7 +18,7 @@ Feature: Select book element into Demoqa
 
 @testForm
 
-Scenario: Select Elements option in home page
+Scenario: Select Elements option books
 
     Given the user clicks the add button form
     And the user clicks the book

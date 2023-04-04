@@ -18,7 +18,7 @@ Feature: Select TextBox element into Demoqa
 
 @testbox
 
-Scenario: Select Elements option in home page
+Scenario: Select Elements option textbox
     #Given the user selects the Elements option
     Given the user clicks the text box button
     And the user sets "Maria Isabel" as Full Name
