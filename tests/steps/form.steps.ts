@@ -1,3 +1,4 @@
+
 import { Given, setDefaultTimeout, Then, When,  } from "@cucumber/cucumber";
 import { form } from "../../src/pages/components/form.page";
 //const { browser, $, element, by } = require('protractor');
@@ -28,10 +29,10 @@ await form.setEmail(inputEmail);
 await sleep(1500);
 });
 
-/*Given('the user select {string} as the gender form', async function (Gender) {
-    await form.setGender(Gender);
-    await sleep(1500);
-    });*/
+// Given('the user select Female as the gender form', async function (Gender) {
+//     await form.clickGender(Gender);
+//     await sleep(1500);
+//     });
 
     /*When('I select {string} as the gender', async function (gender) {
         if (gender.toLowerCase() === 'male') {
@@ -45,23 +46,34 @@ Given('the user sets {string} as phone form', async function (inputPhone) {
     await form.setPhone(inputPhone);
     await sleep(1500);
     });
+
+// Given('the user sets {string} as dateBirth', async function (inputBrirth) {
+//         await form.setDateBirth(inputBrirth);
+//         await sleep(1500);
+//         });
     
 /*When('I select {string} as the language', async function (language) {
     await $('#subjectsInput').sendKeys(language);
     await element(by.cssContainingText('#react-select-2-option-0', language)).click();
         });*/
         
-Given('the user sets {string} as hobbies form', async function (inputHobbies) {
-    await form.setHobbies(inputHobbies);
-    await sleep(1500);
-    });
+// Given('the user sets {string} as hobbies form', async function (inputHobbies) {
+//     await form.setHobbies(inputHobbies);
+//     await sleep(1500);
+//     });
 
-Given('the user sets {string} as address form', async function (inputAddress) {
-    await form.setAddress(inputAddress);
-    await sleep(1500);
-    });
+// Given('the user sets {string} as address form', async function (inputAddress) {
+//     await form.setAddress(inputAddress);
+//     await sleep(1500);
+//     });
 
-Given('the user clicks as Submit button form', async function () {
-    await form.clickSubmit();
-    await sleep(1800);
-    });
+// Given('the user sets {string} as subjects', async function (inputSubjects) {
+//     await form.setSubjects(inputSubjects);
+//     await sleep(1800);
+//     });
+
+
+// Given('the user clicks as Submit2 button form', async function () {
+//     await form.clickSubmit2();
+//     await sleep(1800);
+//     });
