@@ -30,7 +30,6 @@ After({name: 'After UI Hook', tags: '@ui-tests4'},async function() {
     await driverInstance.closeDriver();
 });
 
-
 After({name: 'Take Screenshot', tags: '@ui-tests'},async function(this: CustomWorld, scenario) {
     if(scenario.result?.status == Status.FAILED) {
         const image = await driverInstance.Page.screenshot();
